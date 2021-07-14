@@ -1,0 +1,102 @@
+/* -----------------
+       top part 
+--------------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    background-color: blue;
+    border-bottom: 2px;
+}
+.container:hover .half-width{
+    transform: scale(1.1);
+}
+h1{
+    margin-top: 50px;
+    color: white;
+}
+.half-width{
+   font-size: 30px;
+   text-decoration-color: white;
+   margin-left:100px;
+   margin-right: 25px;
+}
+.half-width img{
+    width: 500px;
+    margin-top: 5px;
+}
+.login-icon{
+    font-size: small;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+/* -----------------
+       player part 
+--------------------- */
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+.top-players .players {
+    margin-top: 55px;
+}
+
+.players .player-image img {
+    width: 300px;
+    height: 256px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.player-info{
+    width: 300px;
+    height: 196px;
+    margin-left: 70px;
+}
+/* bottom part */
+.bottom-part{
+    display: flex;
+    margin-top: 100px;
+}
+.heading {
+    
+   margin-left:100px;
+   margin-right: 25px;
+}
+.heading img{
+    width: 500px;
+    margin-top: 100px;
+}
+.icon{
+    font-size: small;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: red;
+    width: 100px;
+    border-radius: 5px;
+}
+.only-heading{
+    font-size: 2em;
+    margin-top: 150px;
+}
+/* footer */
+.footer .image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 30%;
+
+}
+.icon-items{
+    word-spacing: 25px;
+    text-align: center;
+    justify-content: space-around;
+
+}
+.copyright{
+    text-align: center;
+}
